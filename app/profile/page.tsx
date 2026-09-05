@@ -537,12 +537,14 @@ export default function ProfilePage() {
             </div>
           </div>
 
-          <a
-            href="/products"
-            className="flex min-h-[52px] items-center justify-center rounded-full bg-[#8B2E3F] px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-[#712433]"
-          >
-            Shop New Designs →
-          </a>
+          <div className="flex items-center md:self-center">
+            <a
+              href="/products"
+              className="inline-flex h-[46px] w-auto items-center justify-center whitespace-nowrap rounded-full bg-[#8B2E3F] px-6 text-sm font-semibold text-white transition hover:bg-[#712433]"
+            >
+              Shop New Designs →
+            </a>
+          </div>
         </div>
 
         <div className="mb-7 grid grid-cols-2 gap-3 sm:gap-4 md:mb-8 lg:grid-cols-4">
